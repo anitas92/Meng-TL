@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image:      url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Oakland_Bay_Bridge_Western_Part.jpg/1200px-Oakland_Bay_Bridge_Western_Part.jpg');
+  background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Oakland_Bay_Bridge_Western_Part.jpg/1200px-Oakland_Bay_Bridge_Western_Part.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -28,6 +28,7 @@ body {
 }
 .head, .links {
   text-align: center;
+  
 }
 .head, .content {
   width: 90%;
@@ -66,8 +67,8 @@ li {
 }
 img:hover {
   transform: scale(1.1);
-  filter: grayscale(20%);
+  filter: grayscale(10%);
 }
 .fa:hover{
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
