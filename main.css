@@ -28,7 +28,10 @@ body {
 }
 .head, .links {
   text-align: center;
-  
+
+}
+a{
+  padding-right:7px;
 }
 .head, .content {
   width: 90%;
@@ -70,5 +73,5 @@ img:hover {
   filter: grayscale(10%);
 }
 .fa:hover{
-  transform: scale(1.3);
+  transform: scale(1.5);
 }
